@@ -83,8 +83,7 @@ angular.module("jtt_tumblr", [])
 
             var tumblrSearchData = {
                 object: {
-                    api_key:_params.api_key || undefined,
-                    callback: "JSON_CALLBACK"
+                    api_key:_params.api_key || undefined
                 },
                 url: "",
             };
